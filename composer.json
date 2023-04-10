@@ -1,0 +1,20 @@
+{
+    "name": "siam/kc-admin",
+    "description": "A WordPress plugin for manage theme admin settings",
+    "type": "wordpress-plugin",
+    "license": "GPLv2",
+    "authors": [
+        {
+            "name": "Md Siam Maruf",
+            "email": "siam.maruf1@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Cofixer\\KCA\\": "includes/"
+        },
+        "files": [ "includes/functions.php" ]
+    }
+}
